@@ -57,6 +57,8 @@ submitBtn.addEventListener("click" , function()
 
         //Store In Local Storage and in questions array
         let obj = {
+            subject : getSubject,
+            description : getTextQuestion,
             answer : {personName: "" ,
                         personComment : "" },   
             flag : true,  
@@ -104,23 +106,12 @@ function checkData()
         return  true;
     return false;
 }
-
-function compareQn(a , b)
-{
-    if((a.upvoteqn - a.downvoteqn) > (b.upvoteqn - b.downvoteqn))
-          return -1;
-    if((a.upvoteqn - a.downvoteqn) > (b.upvoteqn - b.downvoteqn))
-          return 1;
-    return 0;
-}
 //list of all questions in left side show
 function displayLeftPane()
 {
     let storageData = getLocalStorageData();
     questions = storageData;
     let newList = '';
-    storageData.sort(compareQn);
-    localStorage.setItem("quesList" , JSON.stringify(storageData));
    
     storageData.forEach(function(element , index){
     if(element.flag === true){
