@@ -1,3 +1,7 @@
 This is an question answer platform where any user can post,like,dislike,search,the question and vice-versa for answer.
-![edit](https://user-images.githubusercontent.com/86796513/179421059-2b0222d0-39d3-42f8-aae3-756e5cc7a61b.png)
-![edit](https://user-images.githubusercontent.com/86796513/179421066-ea59af19-cbdb-4b03-b45e-1d015c112282.png)
+Initially
+![image](https://user-images.githubusercontent.com/86796513/179421149-732f4dc1-0d80-4042-a27a-c8c8e051aaec.png)
+When questions added
+![image](https://user-images.githubusercontent.com/86796513/179421286-92988b7f-59f0-46da-a239-12362a13e1ae.png)
+On clicking any particular question 
+![image](https://user-images.githubusercontent.com/86796513/179421323-c5cbaa1f-d54e-415c-9b57-f4eb523c1801.png)
